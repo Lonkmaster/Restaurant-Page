@@ -1,0 +1,290 @@
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+a:hover {
+    transform: scale(1.05);
+}
+
+body {
+    background-color: #cbd5e1;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    border: none;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #cbd5e1;
+}
+
+.header {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 5px lightslategray;
+    background-color: white;
+}
+
+.titleTop, .options {
+    padding: 50px;
+}
+
+.options {
+    display: flex;
+    gap: 15px;
+}
+
+#content {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper2 {
+    height: 90vh;
+}
+
+.wrapperContainer {
+    height: 90vh;
+}
+
+.containerTextImage {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #495057;
+}
+
+.containerOne {
+    max-width: 200px;
+
+}
+
+.shortSection {
+    max-width: 200px;
+}
+
+.menuButton:hover {
+    transform: scale(1.05);
+    background-color: #bcc2c9;
+}
+
+.menuButton {
+    color: grey;
+    height: 30px;
+    width: 100px;
+}
+
+.centerHeader {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding: 25px;
+}
+
+.hoursDiv {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.hoursHeader {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.hoursText {
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    gap: 40px;
+}
+
+.menuWrapperContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 10px;
+}
+
+
+.menuItem {
+    display: flex;
+    gap: 40px;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.titleItem {
+    font-size: 20px;
+}
+
+.centerPicture {
+    background-size: 100% 100%;
+    background-image: url("../src/img/hq720.jpg");
+    width: 343px;
+    height: 193px;
+}
+
+
+.aboutUsContainer {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.aboutUsTitle {
+    font-size: 35px;
+    border-bottom: solid black 2px;
+
+}
+
+.aboutUsText {
+    width: 800px;
+}
+
+.secondAboutUsContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imageAndTextContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 25px;
+}
+
+.headerAndText {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+
+.aboutUsTextContainer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.aboutUsHeader {
+    font-size: 35px;
+    font-weight: normal;
+    border-bottom: solid black 2px;
+
+
+}
+
+.aboutUsImage {
+    background-size: 100% 100%;
+    background-image: url(./img/CatPic1.jpg);
+    width: 250px;
+    height: 250px;
+}
+
+.aboutOurTeam {
+    font-size: 2rem;
+    border-bottom: solid black 2px;
+    margin-bottom: 1rem;
+}
+
+.teamDiv {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 80px;
+}
+
+.memeberName {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.kitchenRole, .memeberName {
+    margin: 0px;
+    padding: 2px;
+}
+
+.wrapper3 {
+    display: flex;
+    width: 90vw;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.makeReservation {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    border-bottom: solid 1px black;
+}
+
+.secondContantDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.bodyDivContant {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contactEmail {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.phoneNumber {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+
+.footer {
+    display: flex;
+    height: 10vh;
+    background-color: white;
+    border-top: #495057 1px solid;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
